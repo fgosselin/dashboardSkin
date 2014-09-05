@@ -1,0 +1,24 @@
+{
+    "name": "dashboardSkin",
+    "version": "1.O.O",
+    "homepage": "https://github.com/fgosselin/dashboardSkin",
+    "license": "MIT",
+    "keywords": [
+        "css",
+        "dashboard",
+        "front-end",
+        "tv",
+        "screen"
+    ],
+    "private": true,
+    "dependencies": {
+        "bootstrap": "~3.2.0"
+    },
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ]
+}
