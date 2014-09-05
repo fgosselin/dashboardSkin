@@ -1,0 +1,4 @@
+dashboardSkin
+=============
+
+Simple dashboard theme
