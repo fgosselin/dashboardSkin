@@ -1,0 +1,28 @@
+//Setup boxes variables
+@base-box-padding: 20px;
+@half-box-padding: @base-box-padding / 2;
+@mini-box-padding: @base-box-padding / 4;
+
+//Boxes styles
+.box {
+    background-color: @gray;
+    padding: 0;
+    margin-bottom: 30px;
+    border-radius: @border-radius-small;
+
+    &.no-head {
+        padding: @base-box-padding @half-box-padding;
+    }
+}
+.box h2 {
+    margin: 0;
+    padding: @half-box-padding;
+    .border-top-radius(@border-radius-small);
+    background-color: @gray-dark;
+    font-size: 16px;
+    color: @gray-lighter;
+    text-transform: uppercase;
+}
+.box .content {
+    padding: @half-box-padding @half-box-padding @base-box-padding @half-box-padding;
+}
