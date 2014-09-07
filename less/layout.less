@@ -1,0 +1,35 @@
+//
+// Variables
+// --------------------------------------------------
+
+@gray-darker:            #26282D;
+@gray-dark:              #35363B;
+@gray:                   #3C3D42;
+@gray-light:             #4F5055;
+@gray-lighter:           #88898C;
+
+@brand-primary:          #6BAC1B;
+@brand-secondary:        #40BEFA;
+@brand-info:             #fff;
+@brand-warning:          #FFC300;
+@brand-danger:           #DA3856;
+
+//== Scaffolding
+//
+//## Settings for some of the most global styles.
+
+//** Background color for `<body>`.
+@body-bg: @gray-darker;
+//** Global text color on `<body>`.
+@text-color: @brand-info;
+
+//** Global textual link color.
+@link-color: @brand-primary;
+//** Link hover color set via `darken()` function.
+@link-hover-color: darken(@link-color, 15%);
+
+// Layout styles
+.main-container {
+    padding-left: 70px;
+    padding-top:30px;
+}
